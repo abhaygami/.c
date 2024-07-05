@@ -5,7 +5,7 @@
  *      Author: root
  */
 
-
+ 
 #include <stdio.h>
 
 struct census
