@@ -1,78 +1,124 @@
-1. **Sort 1D array using pointer**
-   - Function to sort a one-dimensional array using pointers.
+1. **Census Structure**
+   - Define a structure named `Census` with the following members: city name, population, and literacy level.
+   - Write a program to:
+     - Read details for 10 cities.
+     - Sort the list alphabetically.
+     - Sort the list based on literacy level.
+     - Sort the list based on population.
+     - Display the sorted list.
 
-2. **Sort 2D array using pointer**
-   - Function to sort a two-dimensional array using pointers.
+2. **Cricket Structure**
+   - Define a structure called `cricket` with the following information: player name, team name, batting average.
+   - Declare an array `player` with 20 elements.
+   - Write a program to:
+     - Read information about all 20 players.
+     - Print a team-wise list containing names of players with their batting average.
 
-3. **Sum of all 1D array elements using pointer**
-   - Function to calculate the sum of all elements in a one-dimensional array using pointers.
+3. **Hotel Structure**
+   - Define a structure to describe a hotel with the following members: name, address, grade, average room charge, number of rooms.
+   - Write functions to:
+     - Print hotels of a given grade in order of charges.
+     - Print hotels with room charges less than a given value.
 
-4. **Sum of all 2D array elements using pointer**
-   - Function to calculate the sum of all elements in a two-dimensional array using pointers.
+4. **Library Structure**
+   - Create a structure called `library` to hold accession number, title of the book, author name, price, and a flag indicating whether the book is issued.
+   - Write a menu-driven program with the following options:
+     1. Add book information.
+     2. Display book information.
+     3. List all books of a given author.
+     4. List the title of a specified book.
+     5. List the total number of books in the library.
+     6. List the books in order of accession number.
+     7. Exit.
 
-5. **Reverse 1D array elements using pointer**
-   - Function to reverse the elements of a one-dimensional array using pointers.
+### Functions and Operations
+5. **Leap Year Check**
+   - Write a function `leap()` that receives a year as a parameter and returns 0 if it is a leap year, otherwise returns 1.
 
-6. **Insert, update and delete an element into 1D array using pointer**
-   - Functions to insert, update, and delete elements in a one-dimensional array using pointers.
+6. **Sum of Digits**
+   - Write a function to calculate the sum of digits in the number N.
 
-7. **Count total prime numbers in the 1D array using pointer**
-   - Function to count the total number of prime numbers in a one-dimensional array using pointers.
+7. **Prime Number Check**
+   - Write a function to check whether a given number is a prime number.
 
-8. **Reverse 2D array using pointer**
-   - Function to reverse a two-dimensional array using pointers.
+8. **Armstrong Number Check**
+   - Write a function to check whether a given number is an Armstrong number.
 
-### String Operations
-9. **Compare two strings using pointer**
-   - Function to compare two strings using pointers.
+9. **Factorial Calculation**
+   - Write a function to display the factorial of an integer n.
 
-10. **Concatenate two strings using pointer**
-    - Function to concatenate two strings using pointers.
+10. **Sort 1D Array**
+    - Write a function to sort a 1D array in ascending and descending order.
 
-11. **Check whether a string is palindrome or not using pointer**
-    - Function to check if a string is a palindrome using pointers.
+11. **Sort 2D Array**
+    - Write a function to sort a 2D array in ascending and descending order.
 
-12. **Copy one string into another using pointer**
-    - Function to copy one string into another using pointers.
+12. **Largest & Smallest in 1D Array**
+    - Write a function to find the largest and smallest element of a 1D array.
 
-13. **Reverse string using pointer**
-    - Function to reverse a string using pointers.
+13. **Largest & Smallest in 2D Array**
+    - Write a function to find the largest and smallest element of a 2D array.
 
-14. **Count number of vowels in a given string using pointer**
-    - Function to count the number of vowels in a string using pointers.
+14. **Age Calculation**
+    - Write a function that takes your birth date as input and displays your age in terms of years, months, and days. (Use a structure for date).
 
-### Number Operations
-15. **Check whether a given number is Armstrong number or not using pointer**
-    - Function to check if a given number is an Armstrong number using pointers.
+15. **Date Validation**
+    - Write a function to validate a date given by the user. The function returns 0 for a valid date and returns 1 otherwise.
 
-16. **Calculate a factorial of a given number using command line arguments**
-    - Function to calculate the factorial of a given number using command line arguments.
+16. **Date Comparison**
+    - Write a function that compares two given dates. If the dates are equal, return 0, otherwise return 1. (Use a structure for date).
 
-17. **Check whether a number is prime or not using command line arguments**
-    - Function to check if a number is prime using command line arguments.
+17. **Time Structure**
+    - Define a structure `time` with members: hour, minute, second.
+    - Develop functions to:
+      a. `Input()` to take input of the time from the user.
+      b. `Display()` to display the time entered by the user.
+      c. `Validate()` that accepts one argument of time type and returns 0 if it is valid, otherwise returns 1.
 
-### File Operations
-18. **Display content of file using command line arguments**
-    - Program to display the content of a file using command line arguments.
+18. **Prime Count in 2D Array**
+    - Write a function to count the total number of elements that hold prime numbers in a 2D array.
 
-19. **Copy content of one file into another file by using command line arguments**
-    - Program to copy content from one file to another using command line arguments.
+19. **Fibonacci Series**
+    - Write a function to generate the Fibonacci series up to N.
 
-20. **Count number of vowels and consonants in a text file “student.txt”**
-    - Program to count the number of vowels and consonants in a text file named `student.txt`.
+20. **Sum of Digits in Number**
+    - Write a function to calculate the sum of digits in the number N.
 
-21. **Read integers from a file “master.dat” and write to “odd.dat” or “even.dat”**
-    - Program to read integers from `master.dat` and write odd numbers to `odd.dat` and even numbers to `even.dat`.
+21. **Sum of Elements in 2D Array**
+    - Write a function to calculate the sum of all elements in a 2D array.
 
-22. **Read records from “student.dat” and count number of records**
-    - Function to read records from `student.dat` and count the number of records.
+22. **Prime Number Check (Function)**
+    - Write a function to check whether a given number is prime.
 
-23. **Read from multiple files and write to “Student_details.txt”**
-    - Function to read from `Student_info.txt`, `University_info.txt`, and `Bank_info.txt` and write the details to `Student_details.txt`.
+23. **Armstrong Number Check (Function)**
+    - Write a function to check whether a given number is an Armstrong number.
 
-24. **Display all details of file “details.txt”**
-    - Function to display all details of the file `details.txt`.
+24. **Modular Program for Array Operations**
+    - Write a modular program to:
+      I.a Read two integer arrays with unsorted elements.
+      I.b Sort them in ascending order.
+      I.c Merge the sorted arrays.
+      I.d Print the sorted list.
+    - Use functions for each task. The main function should have only function calls.
 
-### Command Line Arguments
-25. **Display 10 integers from command line in sorted order**
-    - Program to take 10 integers from command line and display them in sorted order.
+25. **Pattern Generation**
+    - Write a function to generate a specific pattern (e.g., N=5).
+
+26. **Pattern Printing**
+    - Write a function to print a specific pattern for a number N (e.g., N=5).
+
+### Recursive Functions
+27. **Factorial Calculation using Recursion**
+    - Write a user-defined function to calculate the factorial of a given number using recursion.
+
+28. **Fibonacci Series using Recursion**
+    - Write a user-defined function to print the Fibonacci series using recursion.
+
+29. **Multiply Two Integers using Recursion**
+    - Write a user-defined function to multiply two integers using recursion.
+
+30. **Sum up to N using Recursion**
+    - Write a user-defined function to add numbers up to N using recursion.
+
+31. **Power Calculation using Recursion**
+    - Write a user-defined function to calculate the power of a number n using recursion.
