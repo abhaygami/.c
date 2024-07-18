@@ -1,9 +1,3 @@
-/*
- * Q1.c
- *
- *  Created on: 26-Feb-2024
- *      Author: root
- */
 
 
 #include<stdio.h>
